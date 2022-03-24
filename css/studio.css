@@ -55,6 +55,7 @@ header {
 .auth-nav {
   line-height: 1.14;
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .site-nav .link {
   color: var(--title-color);
@@ -96,12 +97,14 @@ section.hero {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-button {
   color: var(--special-color);
   background-color: var(--accent-color);
   border-color: var(--accent-color);
 
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.06em;
@@ -110,14 +113,19 @@ section.hero {
 }
 
 /*our-pluses*/
-.our-pluses {
-  background-color: var(--prtf-background);
-}
 .feature-list .title {
   color: var(--title-color);
+
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .feature-list li p {
   line-height: 1.14em;
+}
+.our-works h2 {
+  line-height: 1.16;
 }
 
 /*section our-team*/
@@ -134,6 +142,7 @@ footer {
   background-color: var(--footer-color);
 }
 footer address {
+  font-style: normal;
   line-height: 1.71;
 }
 footer .logo {
@@ -144,9 +153,8 @@ footer .logo {
   color: var(--special-color);
 }
 .footer a {
-  color: var(--text-color);
+  color: rgba(255, 255, 255, 0.6);
 
-  font-style: normal;
   line-height: 1.19;
   font-size: 14px;
   text-decoration: none;

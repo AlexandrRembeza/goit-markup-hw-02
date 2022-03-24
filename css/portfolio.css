@@ -15,10 +15,9 @@
 
 body {
   color: var(--text-color);
-  background-color: var(--prtf-background);
 
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -56,6 +55,7 @@ header {
 .auth-nav {
   line-height: 1.14;
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .site-nav .link {
   color: var(--title-color);
@@ -90,14 +90,12 @@ header {
 .projects .projects-title {
   color: var(--title-color);
 
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .projects p {
   font-size: 16px;
-  font-weight: normal;
   line-height: 1.87;
 }
 
@@ -106,6 +104,7 @@ footer {
   background-color: var(--footer-color);
 }
 footer address {
+  font-style: normal;
   line-height: 1.71;
 }
 footer .logo {
@@ -116,9 +115,8 @@ footer .logo {
   color: var(--special-color);
 }
 .footer a {
-  color: var(--text-color);
+  color: rgba(255, 255, 255, 0.6);
 
-  font-style: normal;
   line-height: 1.19;
   font-size: 14px;
   text-decoration: none;
