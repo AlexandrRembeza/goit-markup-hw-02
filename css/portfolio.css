@@ -1,0 +1,133 @@
+/* цвет основной #757575*/
+/* цвет вторичный #212121*/
+/* цвет спец #FFFFFF*/
+/* цвет акцент #2196F3*/
+/* цвет footer address rgba(255, 255, 255, 0.6);*/
+:root {
+  --text-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --special-color: #ffffff;
+  --prtf-background: #e5e5e5;
+  --footer-color: #2f303a;
+  --team-color: #f5f4fa;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--prtf-background);
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+/*header*/
+header {
+  background-color: var(--special-color);
+}
+
+/*logo*/
+.logo {
+  color: var(--accent-color);
+  text-decoration: none;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.studio-header {
+  color: #000;
+}
+.studio-footer {
+  color: #fff;
+}
+
+/*utility*/
+.list {
+  list-style: none;
+}
+
+/*.site-nav, auth-nav*/
+.site-nav,
+.auth-nav {
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link {
+  color: var(--title-color);
+  text-decoration: none;
+}
+.site-nav .link.current,
+.site-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: var(--accent-color);
+}
+.auth-nav a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+/*projects*/
+.button-list .button {
+  color: var(--title-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+}
+.button-list .button:hover,
+.button:focus {
+  color: var(--special-color);
+  background-color: var(--accent-color);
+}
+.projects .projects-title {
+  color: var(--title-color);
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.87;
+}
+
+/*footer*/
+footer {
+  background-color: var(--footer-color);
+}
+footer address {
+  line-height: 1.71;
+}
+footer .logo {
+  display: block;
+  margin-bottom: 20px;
+}
+.footer p {
+  color: var(--special-color);
+}
+.footer a {
+  color: var(--text-color);
+
+  font-style: normal;
+  line-height: 1.19;
+  font-size: 14px;
+  text-decoration: none;
+}
+.footer a:hover,
+a:focus {
+  color: var(--accent-color);
+}
+address p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
