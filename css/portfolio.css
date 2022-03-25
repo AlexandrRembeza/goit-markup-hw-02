@@ -77,9 +77,11 @@ header {
 .button-list .button {
   color: var(--title-color);
 
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
 .button-list .button:hover,
